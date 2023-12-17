@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "a20bfead-5b1c-4cce-93a2-8a41af5203da",
+		"name": "Postman Gofr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31848544"
+	},
+	"item": [
+		{
+			"name": "GET request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
