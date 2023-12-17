@@ -16,17 +16,86 @@
 		},
 		{
 			"name": "POST",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"himanshi\",\r\n  \"gender\": \"female\",\r\n  \"roomNumber\": 13,\r\n  \"diagnosis\": \"fracture\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"patient"
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "DELETE",
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"himanshi\",\r\n  \"gender\": \"female\",\r\n  \"roomNumber\": 13,\r\n  \"diagnosis\": \"healthy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/patient/7",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"patient",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/patient/7",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"patient",
+						"7"
+					]
+				}
 			},
 			"response": []
 		}
