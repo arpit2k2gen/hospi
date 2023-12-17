@@ -15,7 +15,7 @@ You need to have Docker Desktop installed on your machine.
 
 To install the project, follow these steps:
 
-1. Clone the repository: git clone (https://github.com/arpit2k2gen/gofr.git)
+1. Clone the repository: git clone (https://github.com/arpit2k2gen/hospi.git)
 2. Navigate to the project directory: cd gofr
 3. Initailize the project by command `go mod init gofr`.
 4. Run the command `go mod tidy`.
